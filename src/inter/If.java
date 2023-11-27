@@ -10,7 +10,7 @@ public class If extends Stmt {
         expr = x;
         stmt = s;
         if (expr.type != Type.Bool)
-            expr.error("boolean requieren in if");
+            expr.error("boolean required in if");
     }
 
     public void gen(int b, int a) {

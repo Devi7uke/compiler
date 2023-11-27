@@ -7,7 +7,7 @@ public class Do extends Stmt {
     Stmt stmt;
     public Do() {
         expr = null;
-        expr = null;
+        stmt = null;
     }
 
     public void init(Stmt s, Expr x){

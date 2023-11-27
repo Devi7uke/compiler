@@ -267,7 +267,8 @@ public class Parser {
                 move();
                 return x;
             default:
-                error("syntaxis error");
+                error("syntax error");
+                return x;
             case Tag.ID:
                 String s = look.toString();
                 Id id = top.get(look);
